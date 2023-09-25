@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Food Chart | Micro Project 3</title>
+  </head>
+  <body>
+    <h2>Food Chart App</h2>
+    <div class="container">
+    <div class="list">
+      <p>
+        1. List all the food items:
+        <button id="bt1">Click me</button>
+      </p>
+
+      <p>2. List all the food items with category vegetables:  <button id="bt2">Click me</button></p>
+      <p>3. List all the food items with category fruit:  <button id="bt3">Click me</button></p>
+      <p>4. List all the food items with category protien:  <button id="bt4">Click me</button></p>
+      <p>5. List all the food items with category nuts:  <button id="bt5">Click me</button></p>
+      <p>6. List all the food items with category grains:  <button id="bt6">Click me</button></p>
+      <p>7. List all the food items with category dairy:  <button id="bt7">Click me</button></p>
+      <p>8. List all the food items with calorie above 100:  <button id="bt8">Click me</button></p>
+      <p>9. List all the food items with calorie below 100:  <button id="bt9">Click me</button></p>
+      <p>10. List all the food items with highest protien content to lowest:  <button id="bt10">Click me</button></p>
+      <p>11. List all the food items with lowest cab content to highest:  <button id="bt11">Click me</button></p>
+    </div>
+    <div class="display">
+      <center>
+        <div class="table-wrapper">
+        <table id="tableData" class="fl-table" >
+          <thead>
+          <tr>
+            <td><b>ID</b></td>
+            <td><b>Food Name</b></td>
+            <td><b>Calorie</b></td>
+            <td><b>Category</b></td>
+            <td><b>Proteins</b></td>
+            <td><b>Cab</b></td>
+          </thead>
+            <tbody></tbody>
+          </tr>
+        </table>
+      </div>
+      </center>
+    </div>
+  </div>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
